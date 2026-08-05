@@ -1,6 +1,6 @@
 cask "montty" do
-  version "0.3.8"
-  sha256 "186c9c8cd2aa8eb2d46f205f4ec67c7846597b2851801db5803b5f99916906e0"
+  version "0.3.9"
+  sha256 "a674f575f08392db7b17ce9f1c1bc5e285d8963cb31fc0577709f9aacfe2d1f7"
 
   url "https://github.com/tednaleid/montty/releases/download/#{version}/montty-#{version}.dmg"
   name "Montty"
