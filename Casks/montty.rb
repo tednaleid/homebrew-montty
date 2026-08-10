@@ -1,6 +1,6 @@
 cask "montty" do
-  version "0.3.9"
-  sha256 "a674f575f08392db7b17ce9f1c1bc5e285d8963cb31fc0577709f9aacfe2d1f7"
+  version "0.4.0"
+  sha256 "4517e164549d8a2eddcae00d2ff5ac73f0b67bc656e9aa0659439f6f840c3be2"
 
   url "https://github.com/tednaleid/montty/releases/download/#{version}/montty-#{version}.dmg"
   name "Montty"
@@ -8,7 +8,6 @@ cask "montty" do
   homepage "https://github.com/tednaleid/montty"
 
   depends_on macos: :tahoe
-  depends_on formula: "jq"
 
   app "Montty.app"
 
